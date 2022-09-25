@@ -1,0 +1,317 @@
+body {
+  height: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle at 170% -2%,
+    #000000 40%,
+    #363636 55%,
+    #636262 70%,
+    rgb(182, 181, 181) 75%
+  );
+  padding: 5px;
+  margin: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+div {
+  padding: 20px;
+}
+
+.comeco {
+  border: 5px outset rgb(212, 56, 56);
+  background: url("nome.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.comeco h1,
+h4 {
+  color: #c57138;
+}
+
+.nome {
+  text-shadow: -1px -1px 0px rgb(255, 255, 255), -1px 1px 0px rgb(255, 255, 255),
+    1px -1px 0px rgb(255, 255, 255), 1px 0px 0px rgb(255, 255, 255);
+}
+
+h1,
+h2,
+h4 {
+  text-align: center;
+}
+
+#topicos {
+  text-align: initial;
+}
+
+.fundo {
+  border: 5px solid rgb(31, 177, 26);
+}
+
+#maior {
+  font-size: large;
+}
+
+.episodios {
+  border: 5px outset rgb(31, 177, 26);
+}
+
+#title {
+  font-size: xx-large;
+}
+
+.episodios p {
+  text-align: center;
+}
+
+img {
+  user-select: none;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: 450px;
+  filter: drop-shadow(0 0 5px #000);
+
+  object-fit: cover;
+  opacity: 0.9;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+figcaption {
+  text-align: center;
+}
+
+img:hover {
+  background: transparent;
+  color: rgb(31, 177, 26);
+  transform: scale(0.99) rotate(360deg);
+  box-shadow: 0 0 60px rgb(31, 177, 26);
+  cursor: grab;
+  border: 2px solid rgb(31, 177, 26);
+}
+
+.pilotos {
+  text-align: center;
+  border: 5px outset rgb(255, 126, 14);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: url("capa2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+table,
+th,
+td,
+caption {
+  margin: auto;
+  border: 3px solid rgb(0, 0, 0);
+  border-color: rgb(219, 80, 80);
+}
+
+
+th {
+  color: rgb(180, 86, 3);
+}
+
+td {
+  color: rgb(44, 44, 44);
+}
+
+tr,
+caption {
+  background-color: rgb(214, 214, 214);
+}
+
+caption {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: xx-large;
+  color: rgb(4, 52, 58);
+}
+
+#um {
+  background: url("pilot.jpg");
+}
+
+#dois {
+  background: url("dois.jpg");
+}
+
+#tres {
+  background: url("tres.jpg");
+}
+
+#quatro {
+  background: url("quatro.png");
+}
+
+#cinco {
+  background: url("cincoo.jpg");
+}
+
+#seis {
+  background: url("seis.jpg");
+}
+
+#sete {
+  background: url("sete.jpg");
+}
+
+#oito {
+  background: url("oito.jpg");
+}
+
+#nove {
+  background: url("nove.jpg");
+}
+
+#dezesp {
+  background: url("dezespl.jpg");
+}
+
+#dez {
+  background: url("dez.jpg");
+}
+
+#onze {
+  background: url("onze.jpg");
+}
+
+#doze {
+  background: url("doze.png");
+}
+
+#treze {
+  background: url("treze.jpg");
+}
+
+#quatorze {
+  background: url("quatorze.jpg");
+}
+
+#quinze {
+  background: url("quinze.jpg");
+}
+
+#quinzef {
+  background: url("quinzef.jpg");
+}
+
+#um,
+#dois,
+#tres,
+#quatro,
+#cinco,
+#seis,
+#sete,
+#oito,
+#nove,
+#dezesp,
+#dez,
+#onze,
+#doze,
+#treze,
+#quatorze,
+#quinze,
+#quinzef {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#um:hover,
+#dois:hover,
+#tres:hover,
+#quatro:hover,
+#cinco:hover,
+#seis:hover,
+#sete:hover,
+#oito:hover,
+#nove:hover,
+#dezesp:hover,
+#dez:hover,
+#onze:hover,
+#doze:hover,
+#treze:hover,
+#quatorze:hover,
+#quinze:hover,
+#quinzef:hover {
+  transform: scale(3) rotate(360deg);
+  box-shadow: 0 0 60px rgb(255, 126, 14);
+  cursor: grab;
+  border: 2px solid rgb(4, 52, 58);
+}
+
+.fimr {
+  border: 5px outset rgb(212, 56, 56);
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 10vh;
+  background: url("nome.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.btn {
+  user-select: none;
+  background: transparent;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 23px;
+  border: none;
+  border-radius: 1000px;
+  color: #000;
+}
+
+.btn:hover {
+  background: transparent;
+  color: rgb(212, 56, 56);
+  transform: scale(1.5) rotate(360deg);
+  box-shadow: 0 0 60px rgb(212, 56, 56);
+  cursor: grab;
+  border: 2px solid rgb(212, 56, 56);
+}
+
+a.link {
+  color: rgb(15, 194, 218);
+}
+
+a.link:visited {
+  color: rgb(212, 56, 56);
+}
+
+.frase {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  box-shadow: 0.6em 0 0 rgb(212, 56, 56);
+  margin: auto;
+  width: 31ch;
+  overflow: hidden;
+  color: #fff;
+  white-space: nowrap;
+  animation: caret 0.3s step-end infinite alternate, type 4s steps(23, end);
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes caret {
+  50% {
+    box-shadow: 0.6em 0 0 transparent;
+  }
+}
